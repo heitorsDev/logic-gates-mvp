@@ -1,7 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+
+    font-family: "Roboto Mono", monospace;
+}
 .bg{
     margin: 0;
     width: 100vw;
     height: 100vh;
     background: rgb(5,64,51);
 background: radial-gradient(circle, rgba(5,64,51,1) 23%, rgba(26,27,27,1) 83%);
+}
+.botao{
+    height: min-content;
+    padding: 10px;
+    color: white;
+    display: block;
+
+    font-size: 120%;
+}
+.descriptions{
+    position: absolute;
+    top: 150px;
+    left:20px;
+    font-size: 60%;
+    color: white;
+    background-color: black;
+    position: absolute;
+    display: block;
+    width: 130px;
+    height: min-content;
+}
+.description-text{
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 5%;
 }
