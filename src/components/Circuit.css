@@ -1,0 +1,29 @@
+.Circuit {
+  background-color: blue;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Led {
+  position: absolute;
+}
+
+.Lever {
+  position: absolute;
+  z-index: 2; /* Garante que as levers estejam na frente */
+}
+
+.ledContainer {
+  background-color: red;
+}
+
+.all {
+  width: 100vw;
+  height: 100vh;
+}
+
+.Wire {
+  position: absolute;
+  z-index: 1; /* Garante que os wires estejam atrás das levers */
+}

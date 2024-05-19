@@ -1,0 +1,12 @@
+.light-on,
+.light-off {
+    z-index: 1;
+    position: absolute;
+  height: 300px;
+  width: auto;
+    
+  transform: translate(-50%, -50%);
+  top: 190px;
+  left: 50%;
+}
+

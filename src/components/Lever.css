@@ -1,0 +1,20 @@
+*{
+    left: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.lever-on{
+    display: block;
+}
+.lever-off{
+    display: block;
+
+}
+
+.lever-on, .lever-off{
+    z-index: 1;
+    transform: translate(-50%, -70%), scale(0.5);
+}
